@@ -34,16 +34,17 @@ a {
 }
 
 .container {
-  display: flex;
+  /* display: flex; */
   width: 1370px;
-  /* justify-content: space-between; */
-  align-items: center;
+  /* justify-content: space-between; 
+  align-items: center;  */
   margin: 0 auto;
 }
 
 .wrapper {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .container .nav {
@@ -59,7 +60,7 @@ a {
 
 .container .sign {
   width: 270px;
-  align-items: center; 
+  align-items: center;
 }
 
 .btn {
@@ -83,9 +84,8 @@ a {
 .main {
   display: block;
   background-color: #faf6ff;
-  background-image: url("/img/radu-florin-CwTBt6jyagQ-unsplash\ 4.png"),
-    url("/img/radu-florin-CwTBt6jyagQ-unsplash\ 1.png"),
-    url("/img/radu-florin-CwTBt6jyagQ-unsplash\ 3girl_in_glasses.png");
+  background-image: url("/Alivio/img/women4.png"),
+    url("/Alivio/img/back_women.png"), url("/Alivio/img/women1.png");
   padding-top: 180px;
   padding-bottom: 334px;
 }
@@ -102,7 +102,7 @@ a {
   color: #01996d;
   font-family: "Georgia", sans-serif;
   font-size: 65px;
-  line-height: 1.15;
+  line-height: auto;
 }
 
 .headline p {
@@ -115,4 +115,56 @@ a {
   width: 230px;
   height: 65px;
   padding: auto;
+}
+
+.cards {
+padding-top: 70px;
+}
+
+ p.how {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+h2.how {
+  font-size: 50px;
+  font-family: 'Georgia', sans-serif;
+  color: #01996d;
+  line-height: 1.57;
+  width: 575px;
+}
+
+.offer {
+  width: 670px;
+  line-height: 1.5;
+}
+
+ .gridder {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.items {
+  width: 390px;
+}
+
+.item h3 {
+  font-size: 30px;
+  color:#000;
+  font-family: "Georgia", sans-serif;
+  font: 900;
+  position:relative;
+  /* left:100px;
+  bottom: 60px; */
+}
+
+.items p{
+  line-height: 1.5;
+}
+.number {
+  font-family: "Georgia", sans-serif;
+  font:400;
+  font-size: 150px;
+  color: #01996D;
+  opacity: 20%;
 }
