@@ -34,10 +34,7 @@ a {
 }
 
 .container {
-  /* display: flex; */
   width: 1370px;
-  /* justify-content: space-between; 
-  align-items: center;  */
   margin: 0 auto;
 }
 
@@ -118,10 +115,10 @@ a {
 }
 
 .cards {
-padding-top: 70px;
+  padding-top: 70px;
 }
 
- p.how {
+p.how {
   font-size: 24px;
   font-weight: 600;
 }
@@ -139,10 +136,7 @@ h2.how {
   line-height: 1.5;
 }
 
- .gridder {
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-}
+
 
 .items {
   width: 390px;
@@ -150,21 +144,220 @@ h2.how {
 
 .item h3 {
   font-size: 30px;
-  color:#000;
+  color: #000;
   font-family: "Georgia", sans-serif;
   font: 900;
-  position:relative;
-  /* left:100px;
-  bottom: 60px; */
+  position: relative;
+  /* left:100px;*/
+  bottom: 90px;
 }
 
-.items p{
+.items p {
   line-height: 1.5;
 }
+
 .number {
   font-family: "Georgia", sans-serif;
-  font:400;
+  font: 400;
   font-size: 150px;
   color: #01996D;
   opacity: 20%;
+}
+
+.item2 {
+  padding-top: 370px;
+}
+
+.item3 {
+  padding-top: 120px;
+}
+
+.item1 h3,
+.item3 h3 {
+  text-align: center;
+}
+
+.item2 h3 {
+  text-align: end;
+}
+
+p.item1-p,
+p.item2-p,
+p.item3-p {
+  padding-bottom: 90px;
+}
+
+.women-photo {
+  position: relative;
+  bottom: 270px;
+  left: 17px;
+}
+
+.women-bkgr {
+  position: relative;
+  bottom: 270px;
+  left: 203px;
+}
+
+.history {
+  background-color: #245852;
+  color: #fff;
+}
+
+.history .container {
+  width: 1500px;
+  padding-top: 230px;
+  padding-bottom: 170px;
+}
+
+.history h2 {
+  font-family: 'Georgia', sans-serif;
+  font-size: 50px;
+  line-height: 1.57;
+  width: 580px;
+}
+
+.history p {
+  font-size: 25px;
+  line-height: 1.57;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.history .btn {
+  width: 240px;
+  height: 65px;
+}
+
+.video {
+  width: 895px;
+  height: 516px;
+  display: flex;
+  /* background-color: #000;
+  opacity: 20%;
+  background-color: ; */
+  background-image: url('/Alivio/img/Rectangle\ 8.png');
+  align-items: center;
+}
+
+.video img {
+  margin: auto;
+}
+
+.our-product {
+  padding-top: 120px;
+}
+
+.our-product .image {
+  width: 640px;
+  height: 575px;
+  background-image: url('/Alivio/img/Image.png');
+}
+
+.women {
+  width: 296px;
+  height: 294px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 3.62249px 18.1125px rgba(165, 165, 165, 0.25);
+  /* text-align: center; */
+  position: relative;
+  top: 360px;
+  right: 60px;
+}
+
+.customized,
+.mikayla,
+.custom {
+  text-align: center;
+}
+
+.women img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.customized {
+  font-size: 15px;
+  text-decoration: underline;
+  line-height: 1.57;
+}
+
+.mikayla {
+  font-size: 12px;
+  line-height: 1.57;
+  font-weight: 400;
+}
+
+.custom {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15.9292px;
+  line-height: 1.57;
+}
+
+.contents {
+  font-weight: 400;
+  font-size: 10.6195px;
+  line-height: 1.57;
+}
+
+.contents li {
+  margin-top: 25px;
+  margin-left: 58px;
+}
+
+.offer .our {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 1.57;
+  color: #424242;
+}
+
+.offer .you {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.57;
+  color: #01996D;
+}
+
+.offer .every {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.45;
+  color: #484848;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.offer .btn {
+  width: 227px;
+  height: 65px;
+}
+
+.our-product .wrapper {
+  align-items: flex-start;
+}
+
+footer {
+  margin-top: 250px;
+  background-color: #245852;
+  padding-top: 95px;
+  padding-bottom: 145px;
+}
+
+footer a {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 1.2;
+  color: #FFFFFF;
+
+}
+
+footer li {
+  margin-top: 60px;
 }
